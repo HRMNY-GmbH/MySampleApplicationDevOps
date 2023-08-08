@@ -1,0 +1,11 @@
+_schema-version: "3.1"
+ID: users
+version: 0.0.1
+modules:
+- name: ui
+  type: javascript.nodejs
+  path: ui
+  parameters:
+    disk-quota: 256M
+    memory: 256M
+    version: 0.0.1

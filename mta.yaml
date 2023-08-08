@@ -1,0 +1,18 @@
+ID: users
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+  - name: ui
+    type: html5
+    path: ui
+    parameters:
+      disk-quota: 256M
+      memory: 256M
+      version: 0.0.1
+    build-parameters:
+      builder: custom
+      commands:
+        - npm install
+        - npm run build
+      build-result: dist
