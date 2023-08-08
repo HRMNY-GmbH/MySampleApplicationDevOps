@@ -9,4 +9,4 @@ jobs:
       - name: mavenBuild
         uses: SAP/project-piper-action@master
         with:
-          command: version
+          command: npmExecute
