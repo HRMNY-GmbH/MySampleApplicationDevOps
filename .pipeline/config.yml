@@ -1,3 +1,5 @@
+buildTool: 'mta'
+
 steps:
   mtaBuild:
     target: 'NEO'
